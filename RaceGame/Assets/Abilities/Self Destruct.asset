@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: Self Destruct
   m_EditorClassIdentifier: 
   Name: Self Destruct
-  Description: Blow youre self up... And youre enemies!
-  Icon: {fileID: 0}
+  Description: "Blow yourself up\u2026 and your enemies!"
+  Icon: {fileID: 932306074, guid: b498feb6347a7c24bbd6692365384006, type: 3}
   AbilityMethodName: SelfExplode
+  StatModifications: []
