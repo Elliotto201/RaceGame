@@ -5544,7 +5544,8 @@ GameObject:
   - component: {fileID: 7129709918623368983}
   - component: {fileID: -7672953806738126097}
   - component: {fileID: 7314002625989412378}
-  m_Layer: 0
+  - component: {fileID: 88291486568963773}
+  m_Layer: 3
   m_Name: PlayerCar
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5771,6 +5772,27 @@ Rigidbody:
   m_Interpolate: 1
   m_Constraints: 0
   m_CollisionDetection: 1
+--- !u!65 &88291486568963773
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2070254435618404704}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1.43, y: 1, z: 4.78}
+  m_Center: {x: 0, y: 0.99, z: -0.33}
 --- !u!1 &2168352258306963750
 GameObject:
   m_ObjectHideFlags: 0
