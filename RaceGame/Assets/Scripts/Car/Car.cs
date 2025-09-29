@@ -10,6 +10,7 @@ using UnityEngine.UI;
 public class Car : NetworkBehaviour
 {
     private PrometeoCarController CarController;
+    private CarPrediction CarInput;
     private CarAbilities CarAbilities;
     //Server Side only abilities
     private Ability m_Ability1;
@@ -44,6 +45,7 @@ public class Car : NetworkBehaviour
 
     private void Awake()
     {
+        CarInput = GetComponent<CarPrediction>();
         CarController = GetComponent<PrometeoCarController>();
         CarAbilities = GetComponent<CarAbilities>();
 
@@ -234,14 +236,18 @@ public class Car : NetworkBehaviour
         }
 #endif
 
-        CarController.SteerLeft = steerLeft;
-        CarController.SteerRight = steerRight;
-        CarController.SteerBackwards = steerBackwards;
+        CarInput.SetInput(new CarInput
+        {
+            SteerBack = steerBackwards,
+            SteerLeft = steerLeft,
+            SteerRight = steerRight
+        });
     }
 
     private void HealthChangedClients(int previousValue, int newValue)
     {
         HealthSlider.value = newValue;
+        Debug.Log("Health Value Changed on client to: " + newValue);
     }
 
     [Preserve]
@@ -270,12 +276,23 @@ public class Car : NetworkBehaviour
         }
     }
 
+    public void SetHealth(int health)
+    {
+        if (!IsServer) return;
+
+        currentHealth.Value = Mathf.Clamp(health, 0, MaxHealth);
+        if (currentHealth.Value == 0)
+        {
+            Debug.Log("Car dead");
+        }
+    }
+
     public void Damage(int damage)
     {
         if(!IsServer) return;
 
-        currentHealth.Value -= damage;
-        currentHealth.Value = Mathf.Clamp(currentHealth.Value, 0, MaxHealth);
+        int a = currentHealth.Value - damage;
+        currentHealth.Value = Mathf.Clamp(a, 0, MaxHealth);
 
         if(currentHealth.Value == 0)
         {

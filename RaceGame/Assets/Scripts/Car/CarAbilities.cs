@@ -19,11 +19,11 @@ public class CarAbilities : NetworkBehaviour
             {
                 if(selfCar != car)
                 {
-                    car.Damage(int.MaxValue - 1);
+                    car.SetHealth(0);
                 }
                 else
                 {
-                    car.Damage(selfCar.CurrentHealth - 1);
+                    car.SetHealth(1);
                 }
             }
         }

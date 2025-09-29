@@ -143,8 +143,8 @@ public class PrometeoCarController : MonoBehaviour
       float steeringAxis; // Used to know whether the steering wheel has reached the maximum value. It goes from -1 to 1.
       float throttleAxis; // Used to know whether the throttle has reached the maximum value. It goes from -1 to 1.
       float driftingAxis;
-      float localVelocityZ;
-      float localVelocityX;
+      public float localVelocityZ { get; private set; }
+      public float localVelocityX { get; private set; }
       bool deceleratingCar;
       bool touchControlsSetup = false;
       /*
@@ -263,6 +263,13 @@ public class PrometeoCarController : MonoBehaviour
           }
         }
 
+    }
+
+    public void SetReconciledDataLocal(float _carSpeed, float _localVelocityX, float _localVelocityZ)
+    {
+        carSpeed = _carSpeed;
+        localVelocityX = _localVelocityX;
+        localVelocityZ = _localVelocityZ;
     }
 
     // Update is called once per frame
