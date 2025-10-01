@@ -1,0 +1,137 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "Q:\\RaceGame\\ServerApp\\Server\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{EF3AEE4D-8DE0-4482-BAA8-6A0EECDD1A80}|..\\Matchmaker\\Matchmaker.csproj|q:\\racegame\\serverapp\\matchmaker\\matchmaker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EF3AEE4D-8DE0-4482-BAA8-6A0EECDD1A80}|..\\Matchmaker\\Matchmaker.csproj|q:\\racegame\\serverapp\\matchmaker\\group.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EF3AEE4D-8DE0-4482-BAA8-6A0EECDD1A80}|..\\Matchmaker\\Matchmaker.csproj|q:\\racegame\\serverapp\\matchmaker\\logger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EF3AEE4D-8DE0-4482-BAA8-6A0EECDD1A80}|..\\Matchmaker\\Matchmaker.csproj|q:\\racegame\\serverapp\\matchmaker\\match.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EF3AEE4D-8DE0-4482-BAA8-6A0EECDD1A80}|..\\Matchmaker\\Matchmaker.csproj|q:\\racegame\\serverapp\\matchmaker\\mathutils.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EF3AEE4D-8DE0-4482-BAA8-6A0EECDD1A80}|..\\Matchmaker\\Matchmaker.csproj|q:\\racegame\\serverapp\\matchmaker\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F721E9B6-4292-4AE1-BA01-53C7222873FF}|Server.csproj|q:\\racegame\\serverapp\\server\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F721E9B6-4292-4AE1-BA01-53C7222873FF}|Server.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Logger.cs",
+              "DocumentMoniker": "Q:\\RaceGame\\ServerApp\\Matchmaker\\Logger.cs",
+              "RelativeDocumentMoniker": "..\\Matchmaker\\Logger.cs",
+              "ToolTip": "Q:\\RaceGame\\ServerApp\\Matchmaker\\Logger.cs",
+              "RelativeToolTip": "..\\Matchmaker\\Logger.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-01T10:53:49.02Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "MathUtils.cs",
+              "DocumentMoniker": "Q:\\RaceGame\\ServerApp\\Matchmaker\\MathUtils.cs",
+              "RelativeDocumentMoniker": "..\\Matchmaker\\MathUtils.cs",
+              "ToolTip": "Q:\\RaceGame\\ServerApp\\Matchmaker\\MathUtils.cs",
+              "RelativeToolTip": "..\\Matchmaker\\MathUtils.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-01T10:36:44.398Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Match.cs",
+              "DocumentMoniker": "Q:\\RaceGame\\ServerApp\\Matchmaker\\Match.cs",
+              "RelativeDocumentMoniker": "..\\Matchmaker\\Match.cs",
+              "ToolTip": "Q:\\RaceGame\\ServerApp\\Matchmaker\\Match.cs",
+              "RelativeToolTip": "..\\Matchmaker\\Match.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-01T10:18:24.199Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Player.cs",
+              "DocumentMoniker": "Q:\\RaceGame\\ServerApp\\Matchmaker\\Player.cs",
+              "RelativeDocumentMoniker": "..\\Matchmaker\\Player.cs",
+              "ToolTip": "Q:\\RaceGame\\ServerApp\\Matchmaker\\Player.cs",
+              "RelativeToolTip": "..\\Matchmaker\\Player.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwBQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-01T10:14:25.734Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Group.cs",
+              "DocumentMoniker": "Q:\\RaceGame\\ServerApp\\Matchmaker\\Group.cs",
+              "RelativeDocumentMoniker": "..\\Matchmaker\\Group.cs",
+              "ToolTip": "Q:\\RaceGame\\ServerApp\\Matchmaker\\Group.cs",
+              "RelativeToolTip": "..\\Matchmaker\\Group.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwBoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-01T09:58:00.851Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Matchmaker.cs",
+              "DocumentMoniker": "Q:\\RaceGame\\ServerApp\\Matchmaker\\Matchmaker.cs",
+              "RelativeDocumentMoniker": "..\\Matchmaker\\Matchmaker.cs",
+              "ToolTip": "Q:\\RaceGame\\ServerApp\\Matchmaker\\Matchmaker.cs",
+              "RelativeToolTip": "..\\Matchmaker\\Matchmaker.cs",
+              "ViewState": "AgIAAHcAAAAAAAAAAAAYwJEAAABgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-01T09:57:43.933Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Program.cs",
+              "DocumentMoniker": "Q:\\RaceGame\\ServerApp\\Server\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "Q:\\RaceGame\\ServerApp\\Server\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAQwEIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-01T09:53:03.883Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+Q:\RaceGame\ServerApp\Matchmaker\bin\Debug\net8.0\Matchmaker.deps.json
+Q:\RaceGame\ServerApp\Matchmaker\bin\Debug\net8.0\Matchmaker.dll
+Q:\RaceGame\ServerApp\Matchmaker\bin\Debug\net8.0\Matchmaker.pdb
+Q:\RaceGame\ServerApp\Matchmaker\obj\Debug\net8.0\Matchmaker.GeneratedMSBuildEditorConfig.editorconfig
+Q:\RaceGame\ServerApp\Matchmaker\obj\Debug\net8.0\Matchmaker.AssemblyInfoInputs.cache
+Q:\RaceGame\ServerApp\Matchmaker\obj\Debug\net8.0\Matchmaker.AssemblyInfo.cs
+Q:\RaceGame\ServerApp\Matchmaker\obj\Debug\net8.0\Matchmaker.csproj.CoreCompileInputs.cache
+Q:\RaceGame\ServerApp\Matchmaker\obj\Debug\net8.0\Matchmaker.sourcelink.json
+Q:\RaceGame\ServerApp\Matchmaker\obj\Debug\net8.0\Matchmaker.dll
+Q:\RaceGame\ServerApp\Matchmaker\obj\Debug\net8.0\refint\Matchmaker.dll
+Q:\RaceGame\ServerApp\Matchmaker\obj\Debug\net8.0\Matchmaker.pdb
+Q:\RaceGame\ServerApp\Matchmaker\obj\Debug\net8.0\ref\Matchmaker.dll

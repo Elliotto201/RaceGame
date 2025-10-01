@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36301.6
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Server", "Server.csproj", "{F721E9B6-4292-4AE1-BA01-53C7222873FF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Matchmaker", "..\Matchmaker\Matchmaker.csproj", "{EF3AEE4D-8DE0-4482-BAA8-6A0EECDD1A80}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F721E9B6-4292-4AE1-BA01-53C7222873FF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F721E9B6-4292-4AE1-BA01-53C7222873FF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F721E9B6-4292-4AE1-BA01-53C7222873FF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F721E9B6-4292-4AE1-BA01-53C7222873FF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EF3AEE4D-8DE0-4482-BAA8-6A0EECDD1A80}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EF3AEE4D-8DE0-4482-BAA8-6A0EECDD1A80}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EF3AEE4D-8DE0-4482-BAA8-6A0EECDD1A80}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EF3AEE4D-8DE0-4482-BAA8-6A0EECDD1A80}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0FA7EE2A-CD0D-4FD2-9CA9-FC028C2A5967}
+	EndGlobalSection
+EndGlobal

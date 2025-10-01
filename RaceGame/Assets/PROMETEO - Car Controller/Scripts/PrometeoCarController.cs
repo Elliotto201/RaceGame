@@ -1,13 +1,3 @@
-/*
-MESSAGE FROM CREATOR: This script was coded by Mena. You can use it in your games either these are commercial or
-personal projects. You can even add or remove functions as you wish. However, you cannot sell copies of this
-script by itself, since it is originally distributed as a free product.
-I wish you the best for your project. Good luck!
-
-P.S: If you need more cars, you can check my other vehicle assets on the Unity Asset Store, perhaps you could find
-something useful for your game. Best regards, Mena.
-*/
-
 using System;
 using System.Collections;
 using System.Collections.Generic;
@@ -140,7 +130,7 @@ public class PrometeoCarController : MonoBehaviour
       IMPORTANT: The following variables should not be modified manually since their values are automatically given via script.
       */
       Rigidbody carRigidbody; // Stores the car's rigidbody.
-      float steeringAxis; // Used to know whether the steering wheel has reached the maximum value. It goes from -1 to 1.
+      public float steeringAxis { get; private set; } // Used to know whether the steering wheel has reached the maximum value. It goes from -1 to 1.
       float throttleAxis; // Used to know whether the throttle has reached the maximum value. It goes from -1 to 1.
       float driftingAxis;
       public float localVelocityZ { get; private set; }
@@ -257,7 +247,7 @@ public class PrometeoCarController : MonoBehaviour
             touchControlsSetup = true;
 
           }else{
-            String ex = "Touch controls are not completely set up. You must drag and drop your scene buttons in the" +
+            string ex = "Touch controls are not completely set up. You must drag and drop your scene buttons in the" +
             " PrometeoCarController component.";
             Debug.LogWarning(ex);
           }
@@ -265,11 +255,12 @@ public class PrometeoCarController : MonoBehaviour
 
     }
 
-    public void SetReconciledDataLocal(float _carSpeed, float _localVelocityX, float _localVelocityZ)
+    public void SetReconciledDataLocal(float _carSpeed, float _localVelocityX, float _localVelocityZ, float steerAxis)
     {
         carSpeed = _carSpeed;
         localVelocityX = _localVelocityX;
         localVelocityZ = _localVelocityZ;
+        steeringAxis = steerAxis;
     }
 
     // Update is called once per frame
@@ -323,20 +314,6 @@ public class PrometeoCarController : MonoBehaviour
         }
 
         AnimateWheelMeshes();
-    }
-
-    // This method converts the car speed data from float to string, and then set the text of the UI carSpeedText with this value.
-    public void CarSpeedUI(){
-
-      if(useUI){
-          try{
-            float absoluteCarSpeed = Mathf.Abs(carSpeed);
-            carSpeedText.text = Mathf.RoundToInt(absoluteCarSpeed).ToString();
-          }catch(Exception ex){
-            Debug.LogWarning(ex);
-          }
-      }
-
     }
 
     // This method controls the car sounds. For example, the car engine will sound slow when the car speed is low because the
